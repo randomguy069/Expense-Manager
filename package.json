@@ -5,8 +5,8 @@
   "author": "Adithya Kamath",
   "license": "MIT",
   "engines": {
-    "node": "8.11.3",
-    "yarn": "1.21.1"
+    "node": "12.16.3",
+    "yarn": "1.22.5"
   },
   "scripts": {
     "build:dev": "webpack",
@@ -46,7 +46,7 @@
     "redux": "3.7.2",
     "redux-mock-store": "1.2.3",
     "redux-thunk": "2.2.0",
-    "sass-loader": "6.0.6",
+    "sass-loader": "^10.1.0",
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "8.0.0",
