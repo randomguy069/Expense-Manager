@@ -20,6 +20,7 @@ export class AddExpensePage extends React.Component {
         <div className="content-container">
         <ExpenseForm
           onSubmit={this.onSubmit}
+          buttonName="Submit"
         />
         </div>
       </div>
