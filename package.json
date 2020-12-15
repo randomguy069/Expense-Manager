@@ -17,9 +17,12 @@
     "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
-    "babel-loader": "7.1.1",
+    "babel-loader": "^8.2.2",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-object-rest-spread": "6.23.0",
     "babel-polyfill": "6.26.0",
@@ -28,7 +31,7 @@
     "css-loader": "0.28.4",
     "currencyformatter.js": "^2.2.0",
     "express": "4.15.4",
-    "extract-text-webpack-plugin": "3.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "firebase": "4.2.0",
     "history": "4.7.2",
     "inrformat": "^0.1.2",
@@ -50,7 +53,10 @@
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "8.0.0",
-    "webpack": "3.1.0"
+    "webpack": "4.31.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.3.1",
+    "webpack-merge": "4.1.0"
   },
   "devDependencies": {
     "cross-env": "5.0.5",
@@ -58,7 +64,6 @@
     "enzyme": "2.9.1",
     "enzyme-to-json": "1.5.1",
     "jest": "20.0.4",
-    "react-test-renderer": "15.6.1",
-    "webpack-dev-server": "2.5.1"
+    "react-test-renderer": "15.6.1"
   }
 }
